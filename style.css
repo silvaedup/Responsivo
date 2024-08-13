@@ -1,0 +1,94 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Segunda Aula */
+
+/*
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+h1 {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    background-color: lightpink;
+  }
+  img {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  p {
+    background-color: lightskyblue;
+  }
+} */
+
+/* @media print {
+  body {
+    background-color: pink;
+  }
+} */
+
+/* Terceira Aula */
+
+/* div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 400px) {
+  .minmax img {
+    order: 2;
+  }
+}
+
+.galeria {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+p {
+  font-size: 2rem;
+} */
+
+/* Quarta e Quinta Aula */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 900px;
+  margin-right: auto; /* Definir ao centro */
+  margin-left: auto; /* Definir ao centro */
+}
+
+.cover img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.texto {
+  align-self: center;
+}
+
+p {
+  max-width: 60ch;
+}
